@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="accessories.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+        <title>Vicious Cycles</title>         
+        <img class ="logo" src="Vicious-Cycle-Logo.png" alt="logo">
+    </head>
+    <body>
+        
+        <section class="navigation">
+            <ul id="navbar">
+               
+                <li><a href = "https://ncsports.org/events/" target="_blank" title="TradeShows" class="TradeShows">Trade Shows</a></li>
+                <li><a href="#" title="customization page">Customization</a></li>
+                <li><a href="#" title="accessories page">Accessories</a></li>
+                <li><a href="bikes.html" title="bikes page">Bikes</a></li>
+                <li><a href="vcform.html" title="form">About You</a></li>
+                <li><a href="index.html" title="homepage">Home</a></li>
+                
+            </ul>
+        </section>
+
+        <!-- The grid: four columns -->
+        <section class="bikeaccessories">
+            <h2>Bike Accessories</h2>
+        <div class="row">
+            <div class="column">
+                <img src="trekphone.jpg" alt="Phone Holder" class="responsive">
+                <span class="caption">Black Trek Phone Holder</span>
+                <p>$49.99</p>
+                <div class="popup" onclick="popup('myPopup5')">More Info
+                    <span class="popuptext" id="myPopup5">Black</br>Waterproof</br>Will fit phones up to 6inches in length</br></span>
+                  </div>
+                <span><input type="button" value="Add To Cart" onclick="saveitem()"></span>
+            </div>
+            <div class="column">
+                <img src="trekhandles.jpg" alt="Trek Handle Bars" class="responsive">    
+                <span class="caption">Black Trek Handle Bars</span>  
+                <p>$150.99</p>
+                <div class="popup" onclick="popup('myPopup6')">More Info
+                    <span class="popuptext" id="myPopup6">Black</br>Carbon Fiber</br>Handlebar with Stem</br></span>
+                  </div>
+                <span><input type="button" value="Add To Cart" onclick="saveitem()"></span>  
+            </div>
+            <div class="column">
+                <img src="bonBag.jpg" alt="Bontrager Utility Bag" class="responsive">
+                <span class="caption">Black Bontrager Utility Bag</span>
+                <p>$99.99</p>
+                <div class="popup" onclick="popup('myPopup7')">More Info
+                    <span class="popuptext" id="myPopup7">Black</br>Compacity: 36L</br></span>
+                  </div>
+                <span><input type="button" value="Add To Cart" onclick="saveitem()"></span>  
+            </div>
+        </div>
+        </section>
+        <section class="attireaccessories">
+            <h2>Attire Accessories</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="glasses1.jpg" alt="glasses" class="responsive">
+                    <span class="caption">Cycling Polarized Glasses</span>
+                    <p>149.99</p>
+                    <div class="popup" onclick="popup('myPopup8')">More Info
+                        <span class="popuptext" id="myPopup8">Outdoor Sports Goggles</br>Unisex</br></span>
+                      </div>
+                    <span><input type="button" value="Add To Cart" onclick="saveitem()"></span> 
+                </div>
+                <div class="column">
+                    <img src="fridagloves.jpg" alt="fridagloves" class="responsive">
+                    <span class="caption">Frida Black Floral Gloves</span>
+                    <p>$25.99</p>
+                    <div class="popup" onclick="popup('myPopup9')">More Info
+                        <span class="popuptext" id="myPopup9">4MM Foam Palm Padding</br>Reflective Logo</br>Velco cuff</br></span>
+                      </div>
+                    <span><input type="button" value="Add To Cart" onclick="saveitem()"></span>
+                </div>
+            </div>
+        </section>
+        <section class="helmets">
+            <h2>Helmets</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="blkconhelmet.png" alt="blackhelmet" class="responsive">
+                    <span class="caption">Black Connodale Helmet</span>
+                    <p>Size: XL</br> $80.00</p>
+                    <div class="popup" onclick="popup('myPopup10')">More Info
+                        <span class="popuptext" id="myPopup10">Unisex</br>Adult</br></span>
+                      </div>
+                    <span><input type="button" value="Add To Cart" onclick="saveitem()"></span>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <script src="accessories.js"></script>
+        <div class="address">
+            <p>Vicious Cycles</br>
+
+                123 Main St.</br>
+                
+                Anywhere, NC 99999*</br>
+                
+                Phone: (919) 123-4567 Fax: (917) 123-8901</p>
+        </div>
+    </body>
+    <footer>
+    </br>
+</br>
+
+        <a href="https://www.facebook.com" title="Facebook" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" title="twitter" class="fa fa-twitter"></a>
+</footer>
+</html>

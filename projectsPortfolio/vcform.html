@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+        <title>About You Form</title>         
+        <img class ="logo" src="Vicious-Cycle-Logo.png" alt="logo">
+    </head>
+    <body>
+
+
+        <section class="navigation">
+            <ul id="navbar">
+                <li><a href = "https://ncsports.org/events/" target="_blank" title="TradeShows" class="TradeShows">Trade Shows</a></li>
+                <li><a href="#" title="customization page">Customization</a></li>
+                <li><a href="accessories.html" title="accessories page">Accessories</a></li>
+                <li><a href="bikes.html" title="bikes page">Bikes</a></li>
+                <li><a href="index.html" title="homepage">Home</a></li>
+            </ul>
+        </section>
+
+        <section class="aboutyou">
+            <h1>Fill the form out below to tell us more about you</h1>
+            <form id="questions" method="post" action="" style="border:1px solid #ccc">
+                <div class="container">
+
+                <fieldset>
+                <legend>Bicycle Type</legend>
+                <input type="checkbox" name="biketype" value="Mountain" id="Mountain"><label for="mountain">Mountain</label>
+                <input type="checkbox" name="biketype" value="Casual" id="Casual"><label for="Casual">Casual</label>
+                <input type="checkbox" name="biketype" value="Trick" id="Trick"><label for="Trick">Trick</label>
+                <br>
+                 </fieldset>
+
+                <fieldset>
+                <legend>What interests you the most this visit</legend>
+                    <select name="name" id="idname">
+                        <option value="Accessories">Shop Accessories</option>
+                        <option value="Shop Customization">Shop Customization</option>
+                    </select>    
+                </fieldset>
+
+                <fieldset>
+                <legend>Experience Level</legend>
+                <input type="radio" name="experiencelvl" value="beginner" id="beginner"><label for="beginner">Beginner</label><br>
+                <input type="radio" name="experiencelvl" value="intermmediate" id="intermmediate"><label for="intermemediate">Intermmediate</label><br>
+                <input type="radio" name="experiencelvl" value="expert" id="expert"><label for="expert">Expert</label><br>
+                </fieldset>
+                <label><b>First Name</b></label>
+                <input type="text" placeholder="First Name" name="firstname" required>
+
+                <label><b>Last Name</b></label>
+                <input type="text" placeholder="Last Name" name="lastname" required>
+
+                <label><b>Phone Number</b></label>
+                <input type="number" placeholder="Phone Number" name="phone number" required>
+    
+        
+                <label for="additional">Any additional information</label><br>
+                <textarea id="additional" name="addtional"></textarea><br>
+                <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="Submit" class="submitbtn">Submit</button><br>
+                </div>
+                
+        
+            </form>
+        </section>
+        <div class="address">
+            <p>Vicious Cycles</br>
+
+                123 Main St.</br>
+                
+                Anywhere, NC 99999*</br>
+                
+                Phone: (919) 123-4567 Fax: (917) 123-8901</p>
+        </div>
+    </body>
+    <footer>
+    </br>
+</br>
+        <a href="https://www.facebook.com" title="Facebook" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" title="twitter" class="fa fa-twitter"></a>
+</footer>
+</html>
